@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Favorite Food</title>
+    <link
+      rel="icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREsVmsv8QcnHPoiFnQy6P5WOLziwIpGfe2RQ&usqp=CAU"
+    />
+    <style>
+        #item1{
+            text-align: center;
+            color: red;
+        }
+            html {
+              scroll-behavior: smooth;
+            }
+            body {
+              background-color:skyblue;
+              margin: 0;
+            }
+            .btn {
+              background-color: rgb(135, 33, 33);
+              font-size: 30px;
+            }
+            .main-btn {
+              display: inline-block;
+              cursor: pointer;
+              color: rgb(12, 236, 31);
+              font-weight: bold;
+              padding: 10px;
+              align-items: center;
+            }
+            .main-btn:hover {
+              background-color:rgb(248, 7, 7);
+            }
+            h1 {
+              color: red;
+            }
+            .food-list {
+              text-decoration: none;
+              font-weight: bold;
+              color: black;
+              font-size: 20px;
+            }
+            .food-img {
+              width: 800px;
+              height: 500px;
+              border-radius: 20px;
+              box-shadow: 10px 10px 10px 10px gray;
+            }
+            p {
+              font-size: 30px;
+              font-style: bold;
+            }
+    </style>
+  </head>
+</html>
+<body>
+  <header class="header-bar">
+    <nav class="btn">
+      <div class="main-btn">Food</div>
+      <div class="main-btn">Contact</div>
+      <div class="main-btn">About</div>
+    </nav>
+  </header>
+  <div>
+    <h1>Top 5 Favorite Food</h1>
+    <ul>
+      <li><a class="food-list" href="#Birani">Biryani</a></li>
+      <li><a class="food-list" href="#PIZZA">Pizza</a></li>
+      <li><a class="food-list" href="#waffel">Waffel</a></li>
+      <li><a class="food-list" href="#PASTA">Pasta</a></li>
+      <li><a class="food-list" href="#ice-cream">Ice Cream</a></li>
+    </ul>
+  </div>
+  <br />
+  <div id="Birani"></div>
+  <div class="images">
+    <div id="item1"> <img
+          class="food-img"
+          src="https://www.pinkvilla.com/imageresize/biryani_dos_and_donts_follow_these_chef_approved_ways_to_make_a_perfect_biryani_main.jpg?width=752&t=pvorg"
+          alt="BIRYANI"
+        />
+        <br />
+        <b><u><p>BIRYANI</p></u></b>
+      <div id="PIZZA"></div>
+        <img
+          class="food-img"
+          src="https://c4.wallpaperflare.com/wallpaper/1017/647/742/food-pizza-still-life-hd-wallpaper-preview.jpg"
+          alt="PIZZA"
+        /><br />
+        <b><u><p>PIZZA</p></u></b>
+      <div id="waffel"></div>
+        <img
+          class="food-img"
+          src="https://static.wixstatic.com/media/51cc9e_3c95a98b47a84694962c2fb680301d61~mv2.png/v1/fill/w_360,h_360,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/WAFFLE-IMAGES-SQUARE3.png"
+          alt="WAFFEL"
+        /><br />
+        <b><u><p>WAFFEL</p></u></b>
+      <div id="PASTA"></div>
+          <img
+          class="food-img"
+          src="https://previews.123rf.com/images/topntp/topntp2011/topntp201101605/159439495-spiral-or-spirali-pasta-with-tomato-sauce-and-cheese-italian-food-style.jpg"
+          alt="PASTA"
+        /><br />
+        <b><u><p>PASTA</p></u></b>
+      <div id="ice-cream"></div>
+        <img
+          class="food-img"
+          src="https://media.istockphoto.com/photos/chocolate-vanilla-and-strawberry-ice-cream-picture-id682700434?k=20&m=682700434&s=612x612&w=0&h=yjTNxbG7lbsGF9I9i5q4GsLugud_XLpsvpN-pq4HDWA="
+          alt="ICECREAM"
+        />
+        <br />
+        <b><u><p>ICE-CREAM</p></u></b>
+    </div>
+    </div>
+  </body>
+</html>
